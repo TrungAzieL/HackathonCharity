@@ -1,9 +1,10 @@
 import ProgressBarComponents from "@/app/components/progressBarComponents";
+import Link from "next/link";
 
 export default function CardCharities(){
     return (
         <>
-            <a href="/charities/42yULuEbDeMUsAz7BTAM" style={{boxSizing: 'border-box', outlineWidth: '0px', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', transform: 'matrix(1.03, 0, 0, 1.03, 0, 0)', outline: 'rgb(0, 0, 0) none 0px', WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)', display: 'block', textDecoration: 'none solid rgb(0, 0, 0)', color: 'rgb(0, 0, 0)', borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px', border: '1px solid rgb(222, 226, 230)', position: 'relative', overflow: 'hidden', backgroundColor: 'rgb(255, 255, 255)', padding: '16px', height: '478.531px'}}>
+            <Link href="/charities/42yULuEbDeMUsAz7BTAM" style={{boxSizing: 'border-box', outlineWidth: '0px', background: 'rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box', transform: 'matrix(1.03, 0, 0, 1.03, 0, 0)', outline: 'rgb(0, 0, 0) none 0px', WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)', display: 'block', textDecoration: 'none solid rgb(0, 0, 0)', color: 'rgb(0, 0, 0)', borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px', border: '1px solid rgb(222, 226, 230)', position: 'relative', overflow: 'hidden', backgroundColor: 'rgb(255, 255, 255)', padding: '16px', height: '478.531px'}}>
                 <div data-first="true" style={{boxSizing: 'border-box', marginTop: '-16px', borderTop: '0px none rgb(0, 0, 0)', display: 'block', marginLeft: '-16px', marginRight: '-16px'}}>
                     <div style={{width: '100%', boxSizing: 'border-box'}}>
                         <figure style={{boxSizing: 'border-box', display: 'block', margin: '0px'}}>
@@ -35,7 +36,7 @@ export default function CardCharities(){
                     {/*</div>*/}
                     <ProgressBarComponents rate="17.7" />
                 </div>
-            </a>
+            </Link>
         </>
     )
 }

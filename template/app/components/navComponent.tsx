@@ -1,6 +1,7 @@
 "use client"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlug } from '@fortawesome/free-solid-svg-icons'
+import Link from "next/link";
 
 export default function NavComponent () {
     return (
@@ -13,13 +14,13 @@ export default function NavComponent () {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link active" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">All Charities</a>
+                                <Link className="nav-link" href="/">All Charities</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <Link className="nav-link" href="/">Contact</Link>
                             </li>
                         </ul>
                         {/*<div className="d-flex">*/}
